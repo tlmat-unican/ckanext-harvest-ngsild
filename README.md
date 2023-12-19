@@ -8,7 +8,7 @@ The expected data cycle starts at the subscription of this extension to a Contex
 
 To this end, this extension enables three new endpoints to CKAN_HOST. 
 - `/nsgi-ld/subscribe`: a request to this endpoint will trigger the creation of the subscription into the Context Broker. There is a mandatory POST body:
-    ```json
+    ```
     {
         "hostname": <hostname or IP of the Context Broker>,
         "port": <port of the Context Broker>,
@@ -100,5 +100,3 @@ It mainly makes use of the following libraries and frameworks (dependencies of d
 | ngsildclient             | Apache 2.0          |
 | rdflib                 | BSD-3-Clause          |
 | setuptools          |  MIT          |
-
-## hacer fork
