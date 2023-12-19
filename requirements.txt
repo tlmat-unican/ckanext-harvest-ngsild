@@ -1,0 +1,4 @@
+Flask==2.2.2
+git+https://github.com/jlanza/python-ngsild-client.git#egg=ngsildclient
+rdflib==5.0.0
+setuptools==45.2.0

@@ -1,0 +1,14 @@
+# harvest_ngsild-js:
+#   filter: rjsmin
+#   output: ckanext-harvest_ngsild/%(version)s-harvest_ngsild.js
+#   contents:
+#     - js/harvest_ngsild.js
+#   extra:
+#     preload:
+#       - base/main
+
+# harvest_ngsild-css:
+#   filter: cssrewrite
+#   output: ckanext-harvest_ngsild/%(version)s-harvest_ngsild.css
+#   contents:
+#     - css/harvest_ngsild.css
