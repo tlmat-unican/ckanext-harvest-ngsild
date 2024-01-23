@@ -1,4 +1,4 @@
-Flask==2.2.2
+pyhumps
+rdflib
 git+https://github.com/jlanza/python-ngsild-client.git#egg=ngsildclient
-rdflib==5.0.0
-setuptools
+
